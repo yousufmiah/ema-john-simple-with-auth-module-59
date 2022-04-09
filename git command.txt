@@ -1,0 +1,15 @@
+echo "# ema-john-simple-with-auth-module-59" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yousufmiah/ema-john-simple-with-auth-module-59.git
+git push -u origin main
+
+=================
+==============
+change git url
+to see
+in vscode
+git remote -v enter
+git remote set-url origin pest new link
