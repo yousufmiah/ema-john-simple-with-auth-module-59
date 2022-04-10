@@ -1,0 +1,102 @@
+.form-container{
+    width: 600px;
+    margin: 0 auto;
+    border: 2px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ 
+}
+
+.form-title{
+    font-size: 35px;
+    color: #2a414f;
+    font-weight: 400;
+}
+.input-group{
+margin-bottom: 20px;
+}
+
+.input-group label{
+    display: block;
+    margin-left: 5px;
+}
+
+.input-group input{
+    width: 415px;
+    height: 55px;
+    border: 2px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.form-submit{
+    width: 415px;
+    height: 55px;
+    background-color: rgba(225, 153, 0,  0.3);
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: #2a414f;
+    cursor: pointer;
+   }
+
+   .form-submit:hover{
+    background-color: rgba(225, 153, 0,  0.5);
+    color: white;
+    font-weight: 500;
+   }
+
+   .form-link{
+       color: #FF9900;
+       text-decoration: none;
+       margin-left: 10px;
+   }
+
+
+.link-or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  
+}
+.link-or2{  
+    border: 1px solid #95A0A7;
+    width:150px;
+    height: 0;
+    margin-right: 20px;
+ }
+.link-or3{  
+    border: 1px solid #95A0A7;
+    width:150px;
+    height: 0;
+    margin-left: 20px;
+}
+
+.google-icon{
+    width: 415px;
+    height: 55px;
+    box-sizing: border-box;
+    border: 2px solid #95A0A7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.google-icon img{
+    margin-right: 20px;
+}
+.google-icon:hover{
+    background-color: rgba(65, 62, 209, 0.3);
+    color: white;
+    font-weight: 500;
+}
